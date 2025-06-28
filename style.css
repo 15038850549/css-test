@@ -14,14 +14,47 @@ body{
     display: flex;
     flex: 1;
     padding: 10px;
-    padding-left: 100px
-    ;
+    padding-left: 100px;
+}
+a{
+    text-decoration: none;
+      color: #E5E7EB;
+}
+img{
+    width: 100px; 
+    height: 100px;
+    display: flex;
+
+    padding-right: 100px;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    gap: 18px;
+}
+.header .text{
+    padding: 0;
+}
+.button{
+    width: 80px;
+    height: 20px;
+    margin-bottom: 80px;
+    color: #E5E7EB;
+    background-color:  #3882f6;
+    border-radius: 8px;
+    border:none
 }
 .container{
     display: flex;
     flex: 1;
     justify-content: space-between;
     
+}
+.container1{
+    display: flex;
+    gap: 20px;
 }
 ul{
     list-style-type: none;
@@ -32,17 +65,69 @@ ul{
 }
 .info{
     display: flex;
-    height: 200px;
-    
+    flex-direction: column;
+    height: 200px; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
+.con_card{
+    display: flex;
+    gap: 20px;
+}
+.info_text{
+    font-weight: 800;
+}
+.card{
+    display: flex;
+    padding: 30px;
+    border:solid;
+    border-radius: 5px;
+    border-color: #3882f6;
+}
+
 .quote{
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 200px;
     background-color: #E5E7EB;
 }
+.pos{
+    position: absolute;
+    right: 230px;     
+    bottom: -30px;  
+    font-weight: 800;
+}
 .final{
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 150px;
+}
+.pad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    background-color: #3882f6;
+    padding: 20px;
+}
+.pad_text{
+    display: flex;
+}
+.but{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 20px;
+    
+    color: #E5E7EB;
+    
+    border-radius: 8px;
+    border-color: #E5E7EB;
+    
 }
 .footer{
     display: flex;
